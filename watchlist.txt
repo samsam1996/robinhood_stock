@@ -1,0 +1,3 @@
+strike_price, expiration_date,   stock_symbol,    call/put,     cost_per_contract,     percentage_loss_alert,     email_send
+55,           2020-07-17,        AMD,             call,         20.0,                  0.8,                       not_send
+111,          2020-07-02,        DIS,             call,         2.3,                   1.5,                       not_send
