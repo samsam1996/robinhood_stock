@@ -97,7 +97,7 @@ def run():
     login = w.log_in() #Login to your robinhood account, password not needed
     
     if ENABLE_ALERT: #If set to True, send email alert to your email
-        smtp = send_email(EMAIL_SERVICE,EMAIL,) #service, your email, your password
+        smtp = send_email(EMAIL_SERVICE,EMAIL,APP_PASSWORD) #service, your email, your password
         sender = EMAIL #Send from 
         receiver = EMAIL #Send to
         smtp_obj = smtp.get_smtp_obj(sender,receiver)
